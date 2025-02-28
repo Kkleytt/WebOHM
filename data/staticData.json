@@ -1,0 +1,104 @@
+{
+  "board": {
+    "Name": "Gigabyte Technology Co., Ltd. B360M H",
+    "MemSlots": 4,
+    "MemMax": "64.00",
+    "Serial": "",
+    "BiosVendor": "American Megatrends Inc.",
+    "BiosVersion": "F15b"
+  },
+  "cpu": {
+    "CPUname": "Intel Core™ i5-9400F",
+    "CPUcores": 6,
+    "CPUthreads": 6,
+    "CPUl2": "1.50",
+    "CPUl3": "9.00"
+  },
+  "gpu": {
+    "GPUname": "NVIDIA GeForce RTX 3060",
+    "GPUdriver": "560.70",
+    "GPUTotalMemory": "12.00"
+  },
+  "memory": {
+    "RAMtotal": "15.93",
+    "RAMtype": "DDR4",
+    "RAMspeed": 2666,
+    "RAMNumbersModule": 2,
+    "RAMSizeModule": "8.00",
+    "RAMvoltage": "1.20"
+  },
+  "disks": [
+    {
+      "Name": "Виртуальный диск (Майкрософт)",
+      "Format": "NTFS",
+      "Type": "HD",
+      "Size": "80.00"
+    },
+    {
+      "Name": "XPG GAMMIX S11 P",
+      "Format": "NTFS",
+      "Type": "SSD",
+      "Size": "476.94"
+    },
+    {
+      "Name": "ST3500414CS",
+      "Format": "NTFS",
+      "Type": "HD",
+      "Size": "465.76"
+    },
+    {
+      "Name": "ST500DM002-1BD142",
+      "Format": "ReFS",
+      "Type": "HD",
+      "Size": "465.76"
+    },
+    {
+      "Name": "KINGSTON SA400S37480G",
+      "Format": "N/A",
+      "Type": "SSD",
+      "Size": "447.13"
+    }
+  ],
+  "ethernet": [
+    {
+      "Name": "Realtek Gaming GbE Family Controller",
+      "Speed": 1000,
+      "IPv4": "192.168.31.101",
+      "Mac": "B4:2E:99:55:4F:B3"
+    },
+    {
+      "Name": "Bluetooth Device (Personal Area Network) #2",
+      "Speed": "N/A",
+      "IPv4": "N/A",
+      "Mac": "00:1A:7D:DA:71:11"
+    }
+  ],
+  "info": {
+    "OSname": "Майкрософт Windows 11 Pro",
+    "OSkernel": "10.0.22631",
+    "OSdevice": "Kkleytt-PC",
+    "OSserialnumber": "Default string",
+    "OSIPv4": "192.168.31.101",
+    "OSmac": "B4:2E:99:55:4F:B3"
+  },
+  "apps": {
+    "kernel": "10.0.22631",
+    "node": "20.17.0",
+    "npm": "10.8.2",
+    "python": "3.11.9",
+    "python3": "N/A",
+    "pip": "24.2",
+    "pip3": "24.2",
+    "gcc": "13.3.0",
+    "java": "N/A",
+    "git": "2.46.0.windows.1",
+    "docker": "N/A",
+    "apache": "N/A",
+    "mysql": "N/A",
+    "virtualbox": "N/A",
+    "bash": "N/A",
+    "zsh": "N/A",
+    "powershell": "5.1.22621.4111:",
+    "dotnet": "4.8.09032"
+  }
+}

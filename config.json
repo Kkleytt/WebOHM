@@ -1,0 +1,180 @@
+{
+    "OHM": {
+        "Port": 8085,
+        "Path": "./data/OpenHardwareMonitor/OpenHardwareMonitor.exe",
+        "Names": {
+            "Board": [
+                "gigabyte b360m h",
+                "mainboard",
+                "board"
+            ],
+            "Cpu": [
+                "intel",
+                "amd",
+                "cpu",
+                "core",
+                "ryzen",
+                "athlon",
+                "pentium",
+                "fx",
+                "atom",
+                "celeron"
+            ],
+            "Gpu": [
+                "nvidia",
+                "amd",
+                "gpu",
+                "gtx",
+                "rtx",
+                "geforce",
+                "rx"
+            ],
+            "Memory": [
+                "memory",
+                "ram",
+                "generetic"
+            ],
+            "Disk": [
+                "ST500DM002-1BD142",
+                "ST3500414CS",
+                "KINGSTON SA400S37480G",
+                "XPG GAMMIX S11 Pro",
+                "Generic Hard Disk"
+            ]
+        },
+        "Show": {
+            "Load": true,
+            "Temp": true,
+            "Fan": true,
+            "Clock": true,
+            "Power": true,
+            "Voltage": true
+        }
+    },
+    "Server": {
+        "Port": 9999,
+        "RequestLimit": 50,
+        "BlockDuration": 1,
+        "BlockDurationToken": 1,
+        "TrustedTokens": [
+            "Fedoskin010220053666!",
+            "OlesyaSergeevna123!",
+            "HuiZalupa673"
+        ]
+    },
+    "App": {
+        "Version": "1.0-alpha",
+        "DateUpdate": "23.09.2024",
+        "StartOHM": true,
+        "WriteSettings": true,
+        "LogWrite": true,
+        "LogWriteConsole": true,
+        "LogDate": true,
+        "ContrastDate": true,
+        "LogClearOnStart": false,
+        "TimerLog": {
+            "Hours": 4,
+            "Minuts": 0,
+            "Seconds": 0
+        },
+        "SystemRestart": 60,
+        "AppRestart": 1,
+        "ChangeData": false
+    },
+    "Path": {
+        "ActiveLog": "D:/Cloud Files/Работа/Проекты/#Programs/Node/data/logs.log",
+        "ArchiveLog": "D:/Cloud Files/Работа/Проекты/#Programs/Node/backup/logs",
+        "ActiveConfig": "D:/Cloud Files/Работа/Проекты/#Programs/Node/config.json",
+        "ArchiveConfig": "D:/Cloud Files/Работа/Проекты/#Programs/Node/backup/config",
+        "ArchiveApp": "D:/Cloud Files/Работа/Проекты/#Programs/Node/backup/app",
+        "StaticData": "D:/Cloud Files/Работа/Проекты/#Programs/Node/data/staticData.json",
+        "RestartBat": "D:/Cloud Files/Работа/Проекты/#Programs/Node/rs.bat",
+        "BackupBat": "D:/Cloud Files/Работа/Проекты/#Programs/Node/backup.bat",
+        "App": "D:/Cloud Files/Работа/Проекты/#Programs/Node/main.js"
+    },
+    "Backup": {
+        "UpdateDataOnStart": false,
+        "UpdateData": true,
+        "UpdateDataInterval": 60,
+        "SaveConfig": true,
+        "SaveConfigMax": 60,
+        "TimerConfig": {
+            "Hours": 4,
+            "Minuts": 0,
+            "Seconds": 0
+        },
+        "SaveLog": true,
+        "SaveLogMax": 100,
+        "TimerLog": {
+            "Hours": 4,
+            "Minuts": 0,
+            "Seconds": 0
+        },
+        "SaveApp": true,
+        "SaveAppMax": 1,
+        "Files": [
+            "D:/Cloud Files/Работа/Проекты/#Programs/Node/main.js", 
+            "D:/Cloud Files/Работа/Проекты/#Programs/Node/rs.bat", 
+            "D:/Cloud Files/Работа/Проекты/#Programs/Node/send.py", 
+            "D:/Cloud Files/Работа/Проекты/#Programs/Node/config.json", 
+            "D:/Cloud Files/Работа/Проекты/#Programs/Node/test.bat",
+            "D:/Cloud Files/Работа/Проекты/#Programs/Node/package.json", 
+            "D:/Cloud Files/Работа/Проекты/#Programs/Node/package-lock.json"],
+        "Folders": [
+            "D:/Cloud Files/Работа/Проекты/#Programs/Node/data",
+            "D:/Cloud Files/Работа/Проекты/#Programs/Node/node_modules"],
+        "TimerApp": {
+            "Hours": 4,
+            "Minuts": 0,
+            "Seconds": 0
+        }
+    },
+    "Security": {
+        "BlockToken": true,
+        "BlockMoreRequest": true,
+        "BlockChangeSettings": true,
+        "BlockInjection": true
+    },
+    "Commands": {
+        "/info/board": true,
+        "/info/cpu": true,
+        "/info/gpu": true,
+        "/info/ram": true,
+        "/info/disks": true,
+        "/info/network": true,
+        "/info/oc": true,
+        "/info/users": true,
+        "/info/services": true,
+        "/info/update": true,
+        "/ohm/get": true,
+        "/ohm/reboot": true,
+        "/poff/off": true,
+        "/poff/sleep": true,
+        "/poff/hyber": true,
+        "/poff/reboot": true,
+        "/poff/out": true,
+        "/poff/status/Alice": true,
+        "/poff/off/Alice": true,
+        "/app/reboot": true,
+        "/app/cmd": false,
+        "/app/sudo": false,
+        "/app/backup": false,
+        "/app/config/get": true,
+        "/app/config/set": true,
+        "/app/config/restore": false,
+        "/app/config/backup": true,
+        "/app/config/backup/show": false,
+        "/app/block/user": false,
+        "/app/block/network": false,
+        "/app/info": true,
+        "/app/info/commands": true,
+        "/server/reboot": true,
+        "/server/port/get": true,
+        "/server/port/set": true,
+        "/server/logs/get": true,
+        "/server/logs/clean": true,
+        "/server/logs/backup": true,
+        "/server/apps/start": false,
+        "/server/apps/stop": false
+    }
+}
