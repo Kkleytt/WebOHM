@@ -37,3 +37,15 @@
 | GET | /server/logs/backup | + | + | Резервное копирование лог-файлов |
 | GET | /server/logs/backup/show | + | + | Получение всех резервных копий лог-файлов программы |
 
+
+## Комманды в разработке:
+| ТИП | URL | Linux | Windows | Описание |
+| :-- | :-- | :---: | :-----: | :------- |
+| POST | /app/cmd | ! | + | Ввод комманд CMD |
+| POST | /app/sudo | + | ! | Ввод комманд Linux |
+| POST | /app/config/restore | + | + | Откат настроек программы |
+| GET | /app/block/users | + | + | Блокировка пользователей |
+| GET | /app/block/network | + | + | Блокировка доступа в интернет |
+| POST | /server/apps/start | + | + | Запуск программы описанной в apps.json |
+| POST | /server/apps/stop | + | + | Остановка программы описанной в apps.json |
+
